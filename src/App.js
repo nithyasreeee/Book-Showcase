@@ -2,8 +2,10 @@ import logo from './assets/img/logo.svg';
 import './App.css';
 import { NavBar } from "./components/NavBar";
 import HeroSection from "./components/HeroSection";
-import ImageGridSection from './components/ImageGridSection';
+import BookSlider from "./components/BookSlider";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 
 
 
@@ -13,7 +15,8 @@ function App() {
      
       <NavBar />
       <HeroSection />
-      < ImageGridSection />
+      < BookSlider/>
+      
     </div>
   );
 }
